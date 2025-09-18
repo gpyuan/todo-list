@@ -3,6 +3,7 @@
 🟢 [立即查看 DEMO](https://gpyuan.github.io/todo-list/)
 
 這是一個簡單的 Todo List 網頁應用，支援新增、刪除、完成打勾與加上刪除線，並使用瀏覽器的 `localStorage` 儲存清單資料
+這個專案是我前端學習中的練習作品，主要目標為熟悉DOM操作、事件監聽，以及localStorage的應用
 
 ## 專案特色
 
