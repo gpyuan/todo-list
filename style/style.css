@@ -105,4 +105,25 @@ body div.userInput #addBtn {
   to {
     transform: scale(0);
   }
+}
+@media screen and (max-width: 340px) {
+  .container {
+    margin-top: 10vh;
+  }
+  .container h1 {
+    font-size: 2rem;
+  }
+  .container p {
+    font-size: 1rem;
+  }
+  div.userInput {
+    width: 100vw;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin: none;
+  }
+  #list li {
+    width: 100vw;
+    box-sizing: border-box;
+  }
 }/*# sourceMappingURL=style.css.map */
