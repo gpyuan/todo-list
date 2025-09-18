@@ -1,0 +1,117 @@
+$primary: #318c87;
+$secondary: #62c4bf;
+$accent: #1c607b;
+$text-light: whitesmoke;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+body {
+  background-color: $primary;
+  h1 {
+    color: $text-light;
+    font-size: 2.5rem;
+    padding: 1rem;
+  }
+  p {
+    color: $text-light;
+    font-size: 1.25rem;
+    padding: 5px;
+  }
+  div.userInput {
+    display: flex;
+    gap: 7px;
+
+    #input {
+      width: 300px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    #addBtn {
+      width: 30px;
+      height: 30px;
+      border: none;
+      border-radius: 5px;
+      color: $accent;
+      font-size: 20px;
+    }
+  }
+}
+
+#list li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 337px;
+  min-height: 30px;
+  margin: 5px;
+  background-color: $secondary;
+  color: $text-light;
+  padding: 7px;
+  border-radius: 5px;
+
+  .todo-checkbox {
+    width: 20px;
+    height: 20px;
+  }
+  label {
+    flex: 1;
+    text-align: left;
+    padding: 0 10px;
+  }
+
+  .del-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: $text-light;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: transparent;
+  }
+}
+
+.completed label {
+  text-decoration: line-through;
+}
+
+.del-btn:hover,
+#addBtn:hover {
+  cursor: pointer;
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleDown {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0);
+  }
+}
