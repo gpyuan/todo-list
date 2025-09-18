@@ -1,7 +1,8 @@
 # Todo List 網頁應用
 
-這是一個簡單的 Todo List 網頁，支援新增、刪除、完成打勾並添加刪除線  
-透過 localStorage 保存使用者的清單。
+🟢 [立即查看 DEMO](https://gpyuan.github.io/todo-list/)
+
+這是一個簡單的 Todo List 網頁應用，支援新增、刪除、完成打勾與加上刪除線，並使用瀏覽器的 `localStorage` 儲存清單資料
 
 ## 專案特色
 
